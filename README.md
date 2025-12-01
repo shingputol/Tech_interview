@@ -9,6 +9,8 @@
 
 A comprehensive test automation framework for the Saucedemo e-commerce platform built with Playwright and TypeScript.
 
+<!-- CI/CD Pipeline: Tests run automatically on every push via GitHub Actions -->
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
