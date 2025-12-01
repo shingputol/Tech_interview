@@ -42,7 +42,7 @@ jobs:
       
       - name: Upload test results
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: playwright-report-${{ matrix.browser }}
           path: playwright-report/
@@ -50,7 +50,7 @@ jobs:
       
       - name: Upload test artifacts
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: test-results-${{ matrix.browser }}
           path: test-results/
@@ -58,7 +58,7 @@ jobs:
       
       - name: Upload Allure results
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-results-${{ matrix.browser }}
           path: allure-results/
@@ -72,10 +72,11 @@ jobs:
     
     steps:
       - name: Download Allure results
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           pattern: allure-results-*
           path: allure-results
+          merge-multiple: true
       
       - name: Get Allure history
         uses: actions/checkout@v4
