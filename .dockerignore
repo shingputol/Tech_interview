@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Test results and reports
+playwright-report/
+test-results/
+allure-results/
+allure-report/
+screenshots/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation (optional - uncomment if you want smaller image)
+# *.md
+# PRESENTATION_GUIDE.md
+# TEST_CASES.md
+# DEFECT_REPORT.md
+
+# Misc
+*.log
