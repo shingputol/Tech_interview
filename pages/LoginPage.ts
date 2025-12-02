@@ -1,9 +1,6 @@
 import { Page, Locator, expect } from '@playwright/test';
 
-/**
- * Page Object Model for Login Page
- * Covers US1: User Login functionality
- */
+// Login page
 export class LoginPage {
   readonly page: Page;
   readonly usernameInput: Locator;
@@ -28,11 +25,7 @@ export class LoginPage {
     await this.page.goto('/');
   }
 
-  /**
-   * Perform login with credentials
-   * @param username - Username to login with
-   * @param password - Password to login with
-   */
+  // Login with credentials
   async login(username: string, password: string) {
     await this.usernameInput.fill(username);
     await this.passwordInput.fill(password);
@@ -56,10 +49,7 @@ export class LoginPage {
     return await this.errorMessage.textContent() || '';
   }
 
-  /**
-   * Verify error message is displayed
-   * @param expectedMessage - Expected error message (partial match)
-   */
+  // Check for error message
   async verifyErrorMessage(expectedMessage: string) {
     await expect(this.errorMessage).toBeVisible();
     await expect(this.errorMessage).toContainText(expectedMessage);

@@ -1,53 +1,30 @@
-# Test Summary Report - Saucedemo E-commerce Platform
-## QA Technical Assignment
+# Test Summary
 
-**Project:** Saucedemo E-commerce Test Automation  
-**Date:** December 1, 2025  
-**QA Engineer:** [Your Name]  
-**Application URL:** https://www.saucedemo.com/  
-**Test Framework:** Playwright with TypeScript  
+**Application:** https://www.saucedemo.com/  
+**Framework:** Playwright + TypeScript  
+**Date:** December 2025
 
----
+## Summary
 
-## Table of Contents
-1. [Executive Summary](#executive-summary)
-2. [Objectives Completed](#objectives-completed)
-3. [Test Approach](#test-approach)
-4. [Test Coverage](#test-coverage)
-5. [Automation Framework](#automation-framework)
-6. [Test Results](#test-results)
-7. [Defects Found](#defects-found)
-8. [Risks and Recommendations](#risks-and-recommendations)
-9. [Conclusion](#conclusion)
+Test automation project covering 5 user stories from the requirements doc. Created test cases, automated them, and logged defects found.
 
----
+**What got done:**
+- 67 test cases documented
+- 74 automated tests (bit more than planned - added some extras)
+- 4 page object files
+- 7 bugs found
+- Framework uses POM pattern
 
-## Executive Summary
+**Quality notes:**
+- Login works well
+- Product listing is solid
+- Cart has some issues (see defect report)
+- Checkout flow mostly works
 
-This report summarizes the QA activities performed for the Saucedemo e-commerce platform test automation assignment. The project involved analyzing user stories, decomposing them into test cases, implementing automated tests, and reporting on findings.
+## Objectives
 
-### Key Achievements
-✅ **67 test cases** identified and documented with priorities  
-✅ **60+ automated tests** implemented using Playwright  
-✅ **4 Page Object Models** created for maintainability  
-✅ **7 defects** identified and documented  
-✅ **100% automation coverage** for critical (P0) test cases  
-✅ **Comprehensive framework** with reusable utilities and data management  
-
-### Quality Assessment
-- **Overall Quality Score:** 65/100
-- **Critical Defects:** 2 (Empty cart checkout, Quantity limitation)
-- **Test Automation Coverage:** ~90% of identified test cases
-- **Framework Maturity:** Production-ready
-
----
-
-## Objectives Completed
-
-All assignment objectives were successfully completed:
-
-### ✅ Objective 1: Read User Stories
-- Analyzed all 5 user stories (US1-US5)
+### Read User Stories
+- Reviewed all 5 user stories (US1-US5)
 - Identified acceptance criteria for each story
 - Documented wireframe requirements
 - Mapped business requirements to test scenarios

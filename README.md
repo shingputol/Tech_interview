@@ -1,17 +1,10 @@
-# Saucedemo E-commerce Test Automation
+# Saucedemo Test Automation
 
 [![Playwright Tests](https://github.com/shingputol/Tech_interview/actions/workflows/playwright.yml/badge.svg)](https://github.com/shingputol/Tech_interview/actions/workflows/playwright.yml)
-![Playwright](https://img.shields.io/badge/Playwright-1.40-green)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)
-![Node.js](https://img.shields.io/badge/Node.js-16+-brightgreen)
-![Test Coverage](https://img.shields.io/badge/Coverage-100%25-success)
-![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 
-A comprehensive test automation framework for the Saucedemo e-commerce platform built with Playwright and TypeScript.
+Test automation framework for https://www.saucedemo.com/ built with Playwright and TypeScript.
 
-<!-- CI/CD Pipeline: Tests run automatically on every push via GitHub Actions -->
-
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -24,28 +17,27 @@ A comprehensive test automation framework for the Saucedemo e-commerce platform 
 - [Test Coverage](#test-coverage)
 - [Contributing](#contributing)
 
-## 🎯 Overview
+## Overview
 
-This project is a complete test automation solution for https://www.saucedemo.com/, covering all user stories from login to checkout completion.
+Automated tests covering user flows from login through checkout. Built for a QA technical assessment.
 
-**Assignment Objectives:**
-- ✅ Analyze user stories and acceptance criteria
-- ✅ Decompose into test cases with priority assignment
-- ✅ Automate tests using modern framework
-- ✅ Report defects and findings
+**What's included:**
+- Test case documentation with priorities
+- Automated tests using Playwright
+- Page Object Model architecture  
+- Defect reporting
 
-## ✨ Features
+## Features
 
-- **Page Object Model (POM)** - Maintainable and scalable architecture
-- **TypeScript** - Type-safe test code with IntelliSense
-- **Cross-Browser Testing** - Chromium, Firefox, WebKit support
-- **Parallel Execution** - Fast test execution
-- **Multiple Reporters** - HTML, JSON, JUnit, Allure
-- **Screenshots & Videos** - Automatic capture on failure
-- **CI/CD Ready** - Configured for continuous integration
-- **Comprehensive Coverage** - 67+ test cases, 74+ automated tests
+- Page Object Model for maintainability
+- TypeScript for type safety
+- Cross-browser testing (Chromium, Firefox, WebKit)
+- Parallel test execution
+- HTML and Allure reports
+- Screenshots on failure
+- GitHub Actions CI/CD
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 saucedemo-automation/

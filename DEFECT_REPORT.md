@@ -1,21 +1,16 @@
-# Defect Report - Saucedemo E-commerce Platform
+# Defect Report
 
-**Test Execution Date:** December 1, 2025  
-**Tested By:** QA Team  
 **Application:** https://www.saucedemo.com/  
-**Test Environment:** Production
+**Test Date:** December 2025
 
----
+## Summary
 
-## Executive Summary
+Found 7 defects during testing - mostly discrepancies between the requirements and actual implementation.
 
-During the test automation development and analysis phase, several defects and discrepancies were identified between the requirements specified in the user stories and the actual implementation of the Saucedemo e-commerce platform.
-
-**Total Defects Found:** 7  
-- **Critical (P0):** 2
-- **High (P1):** 3
-- **Medium (P2):** 2
-- **Low (P3):** 0
+**Severity breakdown:**
+- Critical: 2
+- High: 3  
+- Medium: 2
 
 ---
 
